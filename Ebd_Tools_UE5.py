@@ -1,13 +1,31 @@
 # -*- coding: UTF-8 -*-#
 import os
-import unreal
 import sys
 import random
-# import math
+import shutil
+
+for i in sys.path:
+    if "ErBaDao_Tool_UE5" in i:
+        ErBaDaoPath = True
+        UIFile = i + "/ui/Ebd_Tools_maya.ui"
+        break
+    else:
+        for i in sys.path:
+            if os.path.exists(i + r"/ErBaDao_Tool_UE5-main"):
+                sys.path.append(i + r"/ErBaDao_Tool_UE5-main")
+                sys.path.append(i + r"/ErBaDao_Tool_UE5-main/Lib/site_packages")
+                UIFile = i + r"/ErBaDao_Tool_UE5-main/ui/Ebd_Tools_UE5.ui"
+            else:
+                pass
+        pass
+
+
+import unreal
+import wget
+import zipfile2 as zipfile
 import webbrowser as web
 from PySide2 import QtCore, QtGui, QtWidgets
 from PySide2.QtUiTools import QUiLoader
-
 #实例化 unreal中类的命名
 editor_Actor_Sub = unreal.EditorActorSubsystem()
 Sys_lib = unreal.SystemLibrary
@@ -31,6 +49,8 @@ class EbdToolsUe(QtWidgets.QMainWindow):
         self.widget.RandomRotateButton.clicked.connect(self.RandomRotateSelect)
         # self.widget.RandomSizeButton.clicked.connect(self.RandomSizeSelect)
         # self.widget.RandomOffestButton.clicked.connect(self.RandomOffestSelect)
+
+        self.widget.UpdateButton.clicked.connect(self.Upadate)
 
 
 
@@ -77,7 +97,60 @@ class EbdToolsUe(QtWidgets.QMainWindow):
             RandomVector_Value = (RandomRotateX_Value, RandomRotateY_Value, RandomRotateZ_Value)
             i.add_actor_local_rotation(RandomVector_Value, True, False)
 
+    #下载更新插件函数
 
+    def Upadate(self):
+        for i in sys.path:
+            if "ErBaDao_Tool_UE5-main" in i:
+                scriptPath = i.split(r'ErBaDao_Tool_UE5-main')[0]
+
+        url = "https://codeload.github.com/dongpingyao/ErBaDao_Tool_UE5/zip/refs/heads/main"
+
+        filePath = scriptPath + "ebdTemp"
+        fileName = filePath + r'/ErBaDao_Tool_UE5-main.zip'
+        fileName2 = filePath + r'/ErBaDao_Tool_UE5-main.zip'
+        tarfile = scriptPath
+        if os.path.exists(filePath):
+            shutil.rmtree(filePath)
+            os.makedirs(filePath)
+        else:
+            os.makedirs(filePath)
+        print(u"正在下载中,请稍等...")
+        # self.widget.EbdLog_Browser.append("正在下载中,请稍等...")
+        # self.widget.EbdLog_Browser.ensureCursorVisible()
+        wget.download(url, filePath)
+        print(u"下载完成,准备更新")
+        # self.widget.EbdLog_Browser.append("下载完成,准备更新")
+        # self.widget.EbdLog_Browser.ensureCursorVisible()
+
+
+        if os.path.exists(scriptPath + r"/ErBaDao_Tool_Maya"):
+            shutil.rmtree(scriptPath + r"/ErBaDao_Tool_Maya", ignore_errors=1)
+
+            try:
+                zip = zipfile.ZipFile(fileName)
+            except:
+                zip = zipfile.ZipFile(fileName2)
+            zip.extractall(scriptPath + "ebdTemp")
+            zip.close()
+
+
+            for root, dirs, files in os.walk(scriptPath + "ebdTemp" + r"/ErBaDao_Tool_Maya"):
+                for file in files:
+                    src_file = os.path.join(root, file).replace('\\', '/')
+                    ls = src_file.split(src_file.split("/")[-1])[0][:-1]
+                    target_path = ls.split("ebdTemp/")[0] + ls.split("ebdTemp/")[-1]
+                    try:
+                        os.makedirs(target_path)
+                    except:
+                        pass
+                    try:
+                        shutil.copy(src_file, target_path)
+                    except:
+                        pass
+            print(u"更新完成")
+            # self.widget.EbdLog_Browser.append(u"更新完成")
+            # self.widget.EbdLog_Browser.ensureCursorVisible()
 
 
 
