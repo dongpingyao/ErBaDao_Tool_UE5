@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>442</width>
+    <width>472</width>
     <height>595</height>
    </rect>
   </property>
@@ -67,14 +67,14 @@
        <item>
         <widget class="QToolBox" name="toolBox">
          <property name="currentIndex">
-          <number>1</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="page">
           <property name="geometry">
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>386</width>
+            <width>413</width>
             <height>376</height>
            </rect>
           </property>
@@ -107,25 +107,6 @@
                    </property>
                   </widget>
                  </item>
-                 <item alignment="Qt::AlignHCenter">
-                  <widget class="QCheckBox" name="checkBox_4">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>60</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>全局</string>
-                   </property>
-                  </widget>
-                 </item>
                 </layout>
                </item>
                <item>
@@ -140,7 +121,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
@@ -151,7 +132,7 @@
                     <number>360</number>
                    </property>
                    <property name="value">
-                    <number>0</number>
+                    <number>-180</number>
                    </property>
                    <property name="orientation">
                     <enum>Qt::Vertical</enum>
@@ -168,7 +149,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
@@ -179,7 +160,7 @@
                     <number>360</number>
                    </property>
                    <property name="value">
-                    <number>0</number>
+                    <number>180</number>
                    </property>
                    <property name="orientation">
                     <enum>Qt::Vertical</enum>
@@ -197,6 +178,18 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="SendRandomRotateMinX_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <property name="minimum">
                       <number>-360</number>
                      </property>
@@ -207,12 +200,24 @@
                       <number>1</number>
                      </property>
                      <property name="value">
-                      <number>0</number>
+                      <number>-180</number>
                      </property>
                     </widget>
                    </item>
                    <item>
                     <widget class="QSpinBox" name="SendRandomRotateMaxX_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <property name="minimum">
                       <number>-360</number>
                      </property>
@@ -220,7 +225,7 @@
                       <number>360</number>
                      </property>
                      <property name="value">
-                      <number>0</number>
+                      <number>180</number>
                      </property>
                     </widget>
                    </item>
@@ -243,7 +248,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
@@ -254,7 +259,7 @@
                     <number>360</number>
                    </property>
                    <property name="value">
-                    <number>0</number>
+                    <number>-180</number>
                    </property>
                    <property name="orientation">
                     <enum>Qt::Vertical</enum>
@@ -271,7 +276,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
@@ -282,7 +287,7 @@
                     <number>360</number>
                    </property>
                    <property name="value">
-                    <number>0</number>
+                    <number>180</number>
                    </property>
                    <property name="orientation">
                     <enum>Qt::Vertical</enum>
@@ -300,6 +305,18 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="SendRandomRotateMinY_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <property name="minimum">
                       <number>-360</number>
                      </property>
@@ -310,12 +327,24 @@
                       <number>1</number>
                      </property>
                      <property name="value">
-                      <number>0</number>
+                      <number>-180</number>
                      </property>
                     </widget>
                    </item>
                    <item>
                     <widget class="QSpinBox" name="SendRandomRotateMaxY_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <property name="minimum">
                       <number>-360</number>
                      </property>
@@ -323,7 +352,7 @@
                       <number>360</number>
                      </property>
                      <property name="value">
-                      <number>0</number>
+                      <number>180</number>
                      </property>
                     </widget>
                    </item>
@@ -346,7 +375,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
@@ -357,7 +386,7 @@
                     <number>360</number>
                    </property>
                    <property name="value">
-                    <number>0</number>
+                    <number>-180</number>
                    </property>
                    <property name="orientation">
                     <enum>Qt::Vertical</enum>
@@ -374,7 +403,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
@@ -385,7 +414,7 @@
                     <number>360</number>
                    </property>
                    <property name="value">
-                    <number>0</number>
+                    <number>180</number>
                    </property>
                    <property name="orientation">
                     <enum>Qt::Vertical</enum>
@@ -403,6 +432,18 @@
                    </item>
                    <item>
                     <widget class="QSpinBox" name="SendRandomRotateMinZ_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <property name="minimum">
                       <number>-360</number>
                      </property>
@@ -413,12 +454,24 @@
                       <number>1</number>
                      </property>
                      <property name="value">
-                      <number>0</number>
+                      <number>-180</number>
                      </property>
                     </widget>
                    </item>
                    <item>
                     <widget class="QSpinBox" name="SendRandomRotateMaxZ_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <property name="minimum">
                       <number>-360</number>
                      </property>
@@ -426,7 +479,7 @@
                       <number>360</number>
                      </property>
                      <property name="value">
-                      <number>0</number>
+                      <number>180</number>
                      </property>
                     </widget>
                    </item>
@@ -479,97 +532,10 @@
                    </property>
                   </widget>
                  </item>
-                 <item alignment="Qt::AlignHCenter">
-                  <widget class="QCheckBox" name="checkBox_5">
-                   <property name="enabled">
-                    <bool>true</bool>
-                   </property>
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="tabletTracking">
-                    <bool>false</bool>
-                   </property>
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
-                   <property name="text">
-                    <string>全局</string>
-                   </property>
-                   <property name="autoRepeat">
-                    <bool>false</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                   <property name="tristate">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
                 </layout>
                </item>
                <item>
                 <layout class="QHBoxLayout" name="horizontalLayout_3">
-                 <item>
-                  <widget class="QSlider" name="verticalSlider_8">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>15</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="minimum">
-                    <number>-360</number>
-                   </property>
-                   <property name="maximum">
-                    <number>360</number>
-                   </property>
-                   <property name="value">
-                    <number>-360</number>
-                   </property>
-                   <property name="orientation">
-                    <enum>Qt::Vertical</enum>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QSlider" name="verticalSlider_7">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>15</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="minimum">
-                    <number>-360</number>
-                   </property>
-                   <property name="maximum">
-                    <number>360</number>
-                   </property>
-                   <property name="value">
-                    <number>360</number>
-                   </property>
-                   <property name="orientation">
-                    <enum>Qt::Vertical</enum>
-                   </property>
-                  </widget>
-                 </item>
                  <item>
                   <layout class="QVBoxLayout" name="verticalLayout_7">
                    <item>
@@ -580,16 +546,49 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_12">
+                    <widget class="QDoubleSpinBox" name="SendRandomSizeMinX_Value">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="decimals">
+                      <number>5</number>
+                     </property>
+                     <property name="minimum">
+                      <double>-9999.999990000000253</double>
+                     </property>
                      <property name="maximum">
-                      <number>1000</number>
+                      <double>9999.999990000000253</double>
+                     </property>
+                     <property name="singleStep">
+                      <double>0.100000000000000</double>
+                     </property>
+                     <property name="value">
+                      <double>0.000000000000000</double>
                      </property>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_15">
+                    <widget class="QDoubleSpinBox" name="SendRandomSizeMaxX_Value">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="decimals">
+                      <number>5</number>
+                     </property>
+                     <property name="minimum">
+                      <double>-9999.999990000000253</double>
+                     </property>
                      <property name="maximum">
-                      <number>1000</number>
+                      <double>9999.999990000000253</double>
+                     </property>
+                     <property name="singleStep">
+                      <double>0.100000000000000</double>
                      </property>
                     </widget>
                    </item>
@@ -603,62 +602,6 @@
                   </layout>
                  </item>
                  <item>
-                  <widget class="QSlider" name="verticalSlider_10">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>15</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="minimum">
-                    <number>-360</number>
-                   </property>
-                   <property name="maximum">
-                    <number>360</number>
-                   </property>
-                   <property name="value">
-                    <number>-360</number>
-                   </property>
-                   <property name="orientation">
-                    <enum>Qt::Vertical</enum>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QSlider" name="verticalSlider_9">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>15</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="minimum">
-                    <number>-360</number>
-                   </property>
-                   <property name="maximum">
-                    <number>360</number>
-                   </property>
-                   <property name="value">
-                    <number>360</number>
-                   </property>
-                   <property name="orientation">
-                    <enum>Qt::Vertical</enum>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <layout class="QVBoxLayout" name="verticalLayout_8">
                    <item>
                     <widget class="QLabel" name="label_66">
@@ -668,16 +611,49 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_29">
+                    <widget class="QDoubleSpinBox" name="SendRandomSizeMinY_Value">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="decimals">
+                      <number>5</number>
+                     </property>
+                     <property name="minimum">
+                      <double>-9999.999990000000253</double>
+                     </property>
                      <property name="maximum">
-                      <number>1000</number>
+                      <double>9999.999990000000253</double>
+                     </property>
+                     <property name="singleStep">
+                      <double>0.100000000000000</double>
+                     </property>
+                     <property name="value">
+                      <double>0.000000000000000</double>
                      </property>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_30">
+                    <widget class="QDoubleSpinBox" name="SendRandomSizeMaxY_Value">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="decimals">
+                      <number>5</number>
+                     </property>
+                     <property name="minimum">
+                      <double>-9999.999990000000253</double>
+                     </property>
                      <property name="maximum">
-                      <number>1000</number>
+                      <double>9999.999990000000253</double>
+                     </property>
+                     <property name="singleStep">
+                      <double>0.100000000000000</double>
                      </property>
                     </widget>
                    </item>
@@ -691,62 +667,6 @@
                   </layout>
                  </item>
                  <item>
-                  <widget class="QSlider" name="verticalSlider_12">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>15</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="minimum">
-                    <number>-360</number>
-                   </property>
-                   <property name="maximum">
-                    <number>360</number>
-                   </property>
-                   <property name="value">
-                    <number>-360</number>
-                   </property>
-                   <property name="orientation">
-                    <enum>Qt::Vertical</enum>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QSlider" name="verticalSlider_11">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>15</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="minimum">
-                    <number>-360</number>
-                   </property>
-                   <property name="maximum">
-                    <number>360</number>
-                   </property>
-                   <property name="value">
-                    <number>360</number>
-                   </property>
-                   <property name="orientation">
-                    <enum>Qt::Vertical</enum>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <layout class="QVBoxLayout" name="verticalLayout_9">
                    <item>
                     <widget class="QLabel" name="label_67">
@@ -756,17 +676,51 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_32">
+                    <widget class="QDoubleSpinBox" name="SendRandomSizeMinZ_Value">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="decimals">
+                      <number>5</number>
+                     </property>
+                     <property name="minimum">
+                      <double>-9999.999990000000253</double>
+                     </property>
                      <property name="maximum">
-                      <number>1000</number>
+                      <double>9999.999990000000253</double>
                      </property>
                      <property name="singleStep">
-                      <number>1000</number>
+                      <double>0.100000000000000</double>
+                     </property>
+                     <property name="value">
+                      <double>0.000000000000000</double>
                      </property>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_31"/>
+                    <widget class="QDoubleSpinBox" name="SendRandomSizeMaxZ_Value">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="decimals">
+                      <number>5</number>
+                     </property>
+                     <property name="minimum">
+                      <double>-9999.999990000000253</double>
+                     </property>
+                     <property name="maximum">
+                      <double>9999.999990000000253</double>
+                     </property>
+                     <property name="singleStep">
+                      <double>0.100000000000000</double>
+                     </property>
+                    </widget>
                    </item>
                    <item>
                     <widget class="QLabel" name="label_79">
@@ -817,19 +771,6 @@
                    </property>
                   </widget>
                  </item>
-                 <item alignment="Qt::AlignHCenter">
-                  <widget class="QCheckBox" name="checkBox_6">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>全局</string>
-                   </property>
-                  </widget>
-                 </item>
                 </layout>
                </item>
                <item>
@@ -844,15 +785,15 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
                    <property name="minimum">
-                    <number>-360</number>
+                    <number>-99999</number>
                    </property>
                    <property name="maximum">
-                    <number>360</number>
+                    <number>99999</number>
                    </property>
                    <property name="value">
                     <number>-360</number>
@@ -872,15 +813,15 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
                    <property name="minimum">
-                    <number>-360</number>
+                    <number>-99999</number>
                    </property>
                    <property name="maximum">
-                    <number>360</number>
+                    <number>99999</number>
                    </property>
                    <property name="value">
                     <number>360</number>
@@ -900,16 +841,52 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_13">
+                    <widget class="QSpinBox" name="SendRandomOffestMinX_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="minimum">
+                      <number>-99999</number>
+                     </property>
                      <property name="maximum">
-                      <number>9999</number>
+                      <number>99999</number>
+                     </property>
+                     <property name="singleStep">
+                      <number>10</number>
                      </property>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_16">
+                    <widget class="QSpinBox" name="SendRandomOffestMaxX_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="minimum">
+                      <number>-99999</number>
+                     </property>
                      <property name="maximum">
-                      <number>9999</number>
+                      <number>99999</number>
+                     </property>
+                     <property name="singleStep">
+                      <number>10</number>
                      </property>
                     </widget>
                    </item>
@@ -932,15 +909,15 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
                    <property name="minimum">
-                    <number>-360</number>
+                    <number>-99999</number>
                    </property>
                    <property name="maximum">
-                    <number>360</number>
+                    <number>99999</number>
                    </property>
                    <property name="value">
                     <number>-360</number>
@@ -960,15 +937,15 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
                    <property name="minimum">
-                    <number>-360</number>
+                    <number>-99999</number>
                    </property>
                    <property name="maximum">
-                    <number>360</number>
+                    <number>99999</number>
                    </property>
                    <property name="value">
                     <number>360</number>
@@ -988,16 +965,52 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_37">
+                    <widget class="QSpinBox" name="SendRandomOffestMinY_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="minimum">
+                      <number>-99999</number>
+                     </property>
                      <property name="maximum">
-                      <number>9999</number>
+                      <number>99999</number>
+                     </property>
+                     <property name="singleStep">
+                      <number>10</number>
                      </property>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_38">
+                    <widget class="QSpinBox" name="SendRandomOffestMaxY_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="minimum">
+                      <number>-99999</number>
+                     </property>
                      <property name="maximum">
-                      <number>9999</number>
+                      <number>99999</number>
+                     </property>
+                     <property name="singleStep">
+                      <number>10</number>
                      </property>
                     </widget>
                    </item>
@@ -1020,15 +1033,15 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
                    <property name="minimum">
-                    <number>-360</number>
+                    <number>-99999</number>
                    </property>
                    <property name="maximum">
-                    <number>360</number>
+                    <number>99999</number>
                    </property>
                    <property name="value">
                     <number>-360</number>
@@ -1048,15 +1061,15 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>15</width>
+                     <width>10</width>
                      <height>16777215</height>
                     </size>
                    </property>
                    <property name="minimum">
-                    <number>-360</number>
+                    <number>-99999</number>
                    </property>
                    <property name="maximum">
-                    <number>360</number>
+                    <number>99999</number>
                    </property>
                    <property name="value">
                     <number>360</number>
@@ -1076,16 +1089,52 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_39">
+                    <widget class="QSpinBox" name="SendRandomOffestMinZ_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="minimum">
+                      <number>-99999</number>
+                     </property>
                      <property name="maximum">
-                      <number>9999</number>
+                      <number>99999</number>
+                     </property>
+                     <property name="singleStep">
+                      <number>10</number>
                      </property>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QSpinBox" name="UV_Offest_Same_Mesh_spinBox_40">
+                    <widget class="QSpinBox" name="SendRandomOffestMaxZ_Value">
+                     <property name="minimumSize">
+                      <size>
+                       <width>58</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>60</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="minimum">
+                      <number>-99999</number>
+                     </property>
                      <property name="maximum">
-                      <number>9999</number>
+                      <number>99999</number>
+                     </property>
+                     <property name="singleStep">
+                      <number>10</number>
                      </property>
                     </widget>
                    </item>
@@ -1118,23 +1167,9 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_8">
                <item>
-                <widget class="QPushButton" name="RandomOffestButton_2">
+                <widget class="QPushButton" name="RandomTransformButton">
                  <property name="text">
                   <string>随机</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QCheckBox" name="checkBox_7">
-                 <property name="text">
-                  <string>Local</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QCheckBox" name="checkBox_8">
-                 <property name="text">
-                  <string>world</string>
                  </property>
                 </widget>
                </item>
@@ -1282,7 +1317,7 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>400</width>
+            <width>430</width>
             <height>373</height>
            </rect>
           </property>
@@ -1569,8 +1604,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>100</width>
+          <height>30</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1582,8 +1617,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>100</width>
+          <height>30</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1678,8 +1713,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>100</width>
+          <height>30</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1765,8 +1800,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>100</width>
+          <height>30</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1835,8 +1870,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>100</width>
+          <height>30</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1873,7 +1908,7 @@
         <enum>Qt::DefaultContextMenu</enum>
        </property>
        <property name="styleSheet">
-        <string notr="true"/>
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhMultiLine</set>
@@ -1965,7 +2000,7 @@
      <y>420</y>
     </hint>
     <hint type="destinationlabel">
-     <x>317</x>
+     <x>302</x>
      <y>419</y>
     </hint>
    </hints>
@@ -1977,7 +2012,7 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>317</x>
+     <x>302</x>
      <y>419</y>
     </hint>
     <hint type="destinationlabel">
@@ -1993,12 +2028,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>164</x>
-     <y>154</y>
+     <x>125</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>207</x>
-     <y>139</y>
+     <x>190</x>
+     <y>141</y>
     </hint>
    </hints>
   </connection>
@@ -2009,12 +2044,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>236</x>
-     <y>134</y>
+     <x>207</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>307</x>
-     <y>113</y>
+     <x>288</x>
+     <y>115</y>
     </hint>
    </hints>
   </connection>
@@ -2025,12 +2060,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>264</x>
-     <y>144</y>
+     <x>223</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>307</x>
-     <y>139</y>
+     <x>288</x>
+     <y>141</y>
     </hint>
    </hints>
   </connection>
@@ -2041,12 +2076,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>336</x>
-     <y>138</y>
+     <x>305</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>407</x>
-     <y>113</y>
+     <x>386</x>
+     <y>115</y>
     </hint>
    </hints>
   </connection>
@@ -2057,12 +2092,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>364</x>
-     <y>113</y>
+     <x>321</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>407</x>
-     <y>139</y>
+     <x>386</x>
+     <y>141</y>
     </hint>
    </hints>
   </connection>
@@ -2073,11 +2108,11 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>207</x>
+     <x>190</x>
      <y>141</y>
     </hint>
     <hint type="destinationlabel">
-     <x>164</x>
+     <x>125</x>
      <y>160</y>
     </hint>
    </hints>
@@ -2089,11 +2124,11 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>307</x>
+     <x>288</x>
      <y>115</y>
     </hint>
     <hint type="destinationlabel">
-     <x>236</x>
+     <x>207</x>
      <y>160</y>
     </hint>
    </hints>
@@ -2105,11 +2140,11 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>307</x>
+     <x>288</x>
      <y>141</y>
     </hint>
     <hint type="destinationlabel">
-     <x>264</x>
+     <x>223</x>
      <y>160</y>
     </hint>
    </hints>
@@ -2121,11 +2156,11 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>407</x>
+     <x>386</x>
      <y>115</y>
     </hint>
     <hint type="destinationlabel">
-     <x>336</x>
+     <x>305</x>
      <y>160</y>
     </hint>
    </hints>
@@ -2137,11 +2172,11 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>407</x>
+     <x>386</x>
      <y>141</y>
     </hint>
     <hint type="destinationlabel">
-     <x>364</x>
+     <x>321</x>
      <y>160</y>
     </hint>
    </hints>
@@ -2153,11 +2188,11 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>207</x>
+     <x>190</x>
      <y>115</y>
     </hint>
     <hint type="destinationlabel">
-     <x>136</x>
+     <x>109</x>
      <y>160</y>
     </hint>
    </hints>
@@ -2169,12 +2204,252 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>136</x>
-     <y>130</y>
+     <x>109</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>207</x>
-     <y>113</y>
+     <x>190</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_13</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>SendRandomOffestMinX_Value</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>103</x>
+     <y>327</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendRandomOffestMinX_Value</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>verticalSlider_13</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>298</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>104</x>
+     <y>289</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_14</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>SendRandomOffestMaxX_Value</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>147</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendRandomOffestMaxX_Value</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>verticalSlider_14</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>167</x>
+     <y>315</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>319</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_15</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>SendRandomOffestMinY_Value</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>206</x>
+     <y>301</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendRandomOffestMinY_Value</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>verticalSlider_15</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>256</x>
+     <y>298</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>205</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_16</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>SendRandomOffestMaxY_Value</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>333</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendRandomOffestMaxY_Value</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>verticalSlider_16</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>268</x>
+     <y>322</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>219</x>
+     <y>277</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_17</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>SendRandomOffestMinZ_Value</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>302</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendRandomOffestMinZ_Value</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>verticalSlider_17</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>383</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>300</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>verticalSlider_18</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>SendRandomOffestMaxZ_Value</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>320</x>
+     <y>330</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>340</x>
+     <y>325</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendRandomOffestMaxZ_Value</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>verticalSlider_18</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>354</x>
+     <y>321</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>315</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RandomTransformButton</sender>
+   <signal>clicked()</signal>
+   <receiver>RandomRotateButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>368</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>57</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RandomTransformButton</sender>
+   <signal>clicked()</signal>
+   <receiver>RandomSizeButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>40</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RandomTransformButton</sender>
+   <signal>clicked()</signal>
+   <receiver>RandomOffestButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>35</x>
+     <y>315</y>
     </hint>
    </hints>
   </connection>
