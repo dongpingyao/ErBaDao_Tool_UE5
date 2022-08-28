@@ -67,7 +67,7 @@
        <item>
         <widget class="QToolBox" name="toolBox">
          <property name="currentIndex">
-          <number>0</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="page">
           <property name="geometry">
@@ -1282,7 +1282,7 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>403</width>
+            <width>400</width>
             <height>373</height>
            </rect>
           </property>
@@ -1569,8 +1569,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>100</width>
-          <height>30</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1582,8 +1582,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>100</width>
-          <height>30</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1678,8 +1678,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>100</width>
-          <height>30</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1765,8 +1765,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>100</width>
-          <height>30</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1835,8 +1835,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>100</width>
-          <height>30</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
@@ -1848,9 +1848,9 @@
     </widget>
    </item>
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout_3" stretch="7,3">
+    <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,3">
      <item>
-      <widget class="QTextBrowser" name="textBrowser_2">
+      <widget class="QTextBrowser" name="EbdLog_Browser">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -1871,6 +1871,12 @@
        </property>
        <property name="contextMenuPolicy">
         <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhMultiLine</set>
        </property>
        <property name="placeholderText">
         <string>加油!为了中华民族的伟大复兴:)</string>
