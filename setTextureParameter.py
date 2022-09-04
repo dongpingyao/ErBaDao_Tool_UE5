@@ -16,8 +16,8 @@ for asset in assets:
      for pattern in color_patterns:
          if string_lib.contains(asset,pattern):
              #设置此Texture的相关参数
-         asset_obj = editor_asset_lib.load_asset(asset)
-         asset_obj.set_editor_property("sRGB", False)
+             asset_obj = editor_asset_lib.load_asset(asset)
+             asset_obj.set_editor_property("sRGB", False)
 
 
          unreal.log("setting TC_Masks and turning off sRGB for asset {}".format(asset))
